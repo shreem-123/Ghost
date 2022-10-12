@@ -1,6 +1,6 @@
 const debug = require('@tryghost/debug')('importer:base');
 const _ = require('lodash');
-const ObjectId = require('bson-objectid');
+const ObjectId = require('bson-objectid').default;
 const errors = require('@tryghost/errors');
 const models = require('../../../../models');
 
